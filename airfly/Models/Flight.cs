@@ -10,6 +10,7 @@ namespace airfly.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name ="From")]
         public string source { get; set; }
         public string destination { get; set; }
         public string Airplane { get; set; }
